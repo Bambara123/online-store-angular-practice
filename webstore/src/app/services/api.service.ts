@@ -3,6 +3,9 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Options } from '../../types';
 
+// this is the app service that will be used to make the API calls.
+// this is used inside the product service class.
+
 @Injectable({
   providedIn: 'root',
 })
